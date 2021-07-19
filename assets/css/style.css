@@ -1509,7 +1509,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('assets/images/header.jpg') rgb(255, 252, 252) no-repeat center center scroll;
+    background: url('assets/images/header.jpg') rgb(0, 0, 0) no-repeat center center scroll;
   }
 
 }
