@@ -1507,10 +1507,7 @@ header .overlay {
   max-width: 100%;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('assets/images/header.jpg') rgb(0, 0, 0) no-repeat center center scroll;
-  }
+
 
 }
 
