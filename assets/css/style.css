@@ -5,7 +5,7 @@
     Author URI: uideck.com
     Version: 1.0
 
------------------------------------------------------------------------------------
+--------------------------------------------------------ƒ---------------------------
 
     CSS INDEX
     ===================
@@ -343,14 +343,15 @@ p {
   left: 0;
   width: 100%;
   z-index: 999;
-  transition: all 0.3s ease-out 0s;
-  background-color: black;
+  transition: all 2s ease-out 0s;
+  background-color: rgba(0,0,0,0);
+  
 }
 
 .sticky {
   position: fixed;
   z-index: 99;
-  background-color: rgba(255, 255, 255, 0.815);
+  background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-out 0s;
 }
@@ -364,6 +365,7 @@ p {
   border-radius: 5px;
   position: relative;
   transition: all 0.5s ease-out 0s;
+
   
 }
 
@@ -392,7 +394,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
   display: block;
   margin: 5px 0;
   position: relative;
@@ -1506,6 +1508,7 @@ header .container {
   position: relative;
   z-index: 2;
   
+  
 }
 
 header .overlay {
@@ -1517,6 +1520,7 @@ header .overlay {
   opacity: 0;
   z-index: 1;
   max-width: 100%;
+  
 }
 
 
